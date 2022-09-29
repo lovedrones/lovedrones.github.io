@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Bebas+Neue&family=Oswald&family=Righteous&display=swap');
+body {
+    background: rgb(15,16,82);
+background: radial-gradient(circle, rgba(15,16,82,1) 0%, rgba(255,224,210,1) 100%);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+div#headshot {
+    margin-top: 10%;
+    background-color: rgba(255, 199, 0);
+    border-radius: 50%;
+    height: 260px;
+    width: 260px;
+    margin-bottom: -190px;
+   
+}
+
+div#headshot img {
+    margin: 5px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 30px  5px rgba(255, 255, 255, 0.7);
+}
+h1#intro {
+    font-family: 'Bebas Neue', cursive;
+    color:antiquewhite;
+    font-size: 110px;
+    letter-spacing: 2px;
+    text-shadow: 1px 3px 4px rgba(0,0,0,.8);
+    margin-bottom: -50px;
+}
+
+h3#subcap {
+    color: antiquewhite;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: 'Bayon', sans-serif;
+    text-shadow: 5px 5 #ff0000;
+    font-size: 40px;
+    padding-left: 5%;
+}
