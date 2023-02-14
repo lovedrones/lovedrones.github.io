@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Bebas+Neue&family=Oswald&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Barlow&family=Bayon&family=Bebas+Neue&family=Oswald&family=Righteous&display=swap');
 body {
     background: rgb(15,16,82);
 background: radial-gradient(circle, rgba(15,16,82,1) 0%, rgba(255,224,210,1) 100%);
@@ -12,7 +12,43 @@ background: radial-gradient(circle, rgba(15,16,82,1) 0%, rgba(255,224,210,1) 100
     margin-right: auto;
     width: 50%;
   }
+  .topnav {
+    position: sticky;
+    width: 100%;
+    padding: 1.4rem;
+    background-color: antiquewhite;
+    overflow: hidden;
+  }
+ .topnav a {
+    top: 0;
+    margin: 0;
+    padding-left: 25px;
+    padding-right: 4px;
+    color:rgba(15,16,82,1);
+    border-right: solid 2px rgba(15,16,82,1) ;
+    text-decoration: none;
+    overflow: auto;
+  }
+  /* li {
+      float: left; 
+      display: inline;
+  }
 
+  li a {
+    display: block;
+    color:rgba(15,16,82,1);
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 4px;
+    border-right: solid 2px rgba(15,16,82,1) ;
+    text-decoration: none;
+  }*/
+  
+   .topnav a:hover {
+    background-color: rgba(15,16,82,1);
+    color: antiquewhite;
+  } 
+  
 
 div#headshot {
     margin-top: 10%;
@@ -33,10 +69,11 @@ h1#intro {
     font-family: 'Bebas Neue', sans-serif;
     color:antiquewhite;
     font-size: 105px;
-    letter-spacing: 1.5px;
+    width: 100%;
+    letter-spacing: 1.3px;
     text-shadow: 1px 3px 4px rgba(0,0,0,.8);
     margin-top: -130px;
-    margin-left: 130px;
+    margin-left: 2rem;
     margin-bottom: -40px;
 }
 
@@ -47,16 +84,28 @@ h3#subcap {
     font-family: 'Bayon', sans-serif;
     text-shadow: 2px 0 #50dbfa;
     font-size: 40px;
-    padding-left: 20%;
+    padding-left: 14%;
+    margin-bottom: 8rem;
+}
+div#aboutme-container {
+    color:antiquewhite;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 20px;
+    background: rgb(166,177,214);
+background: linear-gradient(360deg, rgba(166,177,214,1) 0%, rgba(131,150,212,1) 100%);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    max-width: 50%;
+    padding: 15px;
 }
 div#project-container {
-    background-color: #0810ff;
+    background: rgb(8,16,255);
+    background: radial-gradient(circle, rgba(8,16,255,1) 0%, rgba(255,255,255,1) 100%);
     width: 100%;
+    border-radius: 25px;
     color: #caff03;
 }
-p {
-    color:antiquewhite;
-}
+
+
 
 h1#projects {
     text-decoration: underline;
@@ -65,8 +114,9 @@ h1#projects {
 
 h1#about-me, #resume, #contact {
     font-family: 'oswald', sans-serif;
-    color: rgb(15,16,82);
+    color: #fcf3e8;
     text-decoration: underline;
+    text-shadow: 1px 3px 4px rgba(15, 16, 82, 0.3)
 }
 
 .pro-img {
