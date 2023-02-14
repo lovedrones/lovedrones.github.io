@@ -29,20 +29,7 @@ background: radial-gradient(circle, rgba(15,16,82,1) 0%, rgba(255,224,210,1) 100
     text-decoration: none;
     overflow: auto;
   }
-  /* li {
-      float: left; 
-      display: inline;
-  }
-
-  li a {
-    display: block;
-    color:rgba(15,16,82,1);
-    text-align: center;
-    padding-left: 25px;
-    padding-right: 4px;
-    border-right: solid 2px rgba(15,16,82,1) ;
-    text-decoration: none;
-  }*/
+ 
   
    .topnav a:hover {
     background-color: rgba(15,16,82,1);
