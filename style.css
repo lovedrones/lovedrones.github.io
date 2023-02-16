@@ -15,17 +15,16 @@ background: radial-gradient(circle, rgba(15,16,82,1) 0%, rgba(255,224,210,1) 100
   .topnav {
       margin-top: -10px;
       margin-left: -10px;
-      display: inline-block;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    position: sticky;
-    width: 100%;
-    padding: 1.4rem;
-    background-color: antiquewhite;
+      position: sticky;
+      width: 100%;
+      padding: 1.4rem;
+      background-color: antiquewhite;
     
   }
  .topnav a {
     padding: 20px;
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Roboto Mono', monospace;
     color:rgba(15,16,82,1);
     border-right: groove 2px rgba(15,16,82,0.5) ;
@@ -84,20 +83,27 @@ div#aboutme-container {
     font-family: 'Raleway', sans-serif;
     border-radius: 20px;
     background: rgb(166,177,214);
-background: linear-gradient(360deg, rgba(166,177,214,1) 0%, rgba(131,150,212,1) 100%);
+    background: linear-gradient(360deg, rgba(166,177,214,1) 0%, rgba(131,150,212,1) 100%);
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
     max-width: 50%;
     padding: 15px;
 }
 div#project-container {
-    background: rgb(8,16,255);
-    background: radial-gradient(circle, rgba(8,16,255,1) 0%, rgba(255,255,255,1) 100%);
-    width: 100%;
     border-radius: 25px;
-    color: #caff03;
+    color: antiquewhite;
+    text-shadow: 2px 0 #50dbfa;
 }
 
-
+div.pro-card {
+    display: inline-block;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    font-family: 'Bayon', sans-serif;
+    width: 25%;
+    padding: 0.5rem;
+    border-radius: 20px;
+    background: rgb(166,177,214);
+    background: linear-gradient(360deg, rgba(166,177,214,1) 0%, rgba(131,150,212,1) 100%);
+}
 
 h1#projects {
     text-decoration: underline;
@@ -112,8 +118,9 @@ h1#about-me, #resume, #contact {
 }
 
 .pro-img {
-    height: 150px;
-    width: 250px;
-   border: 5px solid #caff03; 
-   border-radius: 5px;
+    height: 115px;
+    width: 200px;
+    border: 4px solid #50dbfa; 
+    border-radius: 5px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
 }
