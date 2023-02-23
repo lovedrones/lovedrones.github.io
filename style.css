@@ -88,6 +88,7 @@ div#aboutme-container {
     max-width: 50%;
     padding: 15px;
 }
+
 div#project-container {
     border-radius: 25px;
     color: antiquewhite;
@@ -118,6 +119,19 @@ h1#about-me, #resume, #contact {
     text-decoration: underline;
     text-shadow: 1px 3px 4px rgba(15, 16, 82, 0.3)
 }
+h3 a {
+    color: #50dbfa;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: 'Bayon', sans-serif;
+    text-shadow: 1px 3px 4px rgba(15, 16, 82, 0.3);
+    font-size: 25px;
+    padding-left: 14%;
+    margin-bottom: 8rem;
+}
+h3 a:hover {
+    color: #fa5083;
+}
 
 .pro-img {
     height: 115px;
@@ -127,3 +141,40 @@ h1#about-me, #resume, #contact {
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
 
 }
+.pro-img:hover {
+    border: 4px solid #fa5083;  
+}
+
+div#contact-container {
+    padding: 1rem;
+    width: 75%;
+    border-radius: 20px;
+    background: antiquewhite;
+    background: linear-gradient(360deg, rgba(166,177,214,1) 0%, rgba(131,150,212,1) 100%);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+
+}
+
+  #con-img {
+     height: 40%;
+     width: 50%;
+}
+
+ .con-links {
+     color: #50dbfa;
+     display: inline;
+     margin-left: 20%;
+     
+     
+ }
+
+ .con-links a {
+    color: #00cffe;
+    font-family: 'Bayon', sans-serif;
+    text-shadow: 1px 3px 4px rgba(15, 16, 82, 0.3);
+    font-size: 30px;
+ }
+
+ .con-links a:hover {
+    color: #fa5083;
+ }
