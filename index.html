@@ -1,103 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Juan L. Owens' Portfolio</title>
-    <link rel="icon" type="image/svg" href="user-secret-solid.svg">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
-    <link rel="stylesheet" href="style.css">
-    <div class="topnav">
-        <a href="#intro-container">Home</a>
-        <a href="#aboutme-container">About</a>
-        <a href="#project-container">Projects</a>
-        <a class="active" href="https://docs.google.com/document/d/19lM7N_vikA2QEwa-MnMJ-cyR2i7Za2EFiQOA1AuVdrA/edit?usp=sharing">Resume</a>
-        <a href="#contact-container">Contact</a>
+    <link rel="icon" type="image/svg" href="user-secret-solid.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <div class="topnav" id="myTopnav">
+      <a href="#intro-container">Home</a>
+      <a href="#aboutme-container">About</a>
+      <a href="#project-container">Projects</a>
+      <a
+        class="active"
+        href="https://docs.google.com/document/d/19lM7N_vikA2QEwa-MnMJ-cyR2i7Za2EFiQOA1AuVdrA/edit?usp=sharing"
+        >Resume</a
+      >
+      <a href="#contact-container">Contact</a>
     </div>
-</head>
-<body> 
-  
+  </head>
+  <body>
     <div id="intro-container" class="center">
-    <div id="headshot" class="center">
-        <img src="images/juan_narro_headshot_O.png">
-    </div>
-    <h1 id="intro">
-        Hi, <br>
+      <div id="headshot" class="center">
+        <img src="images/juan_narro_headshot_O.png" />
+      </div>
+      <h1 id="intro">
+        Hi, <br />
         I'm Juan L. Owens
-    </h1>
-    <h3 id="subcap">Front-End Software Engineer</h3>
-</div>
-<div id="aboutme-container" class="center">
-    <h1 id="about-me">
-        About Me
-    </h1>
-<p>I've been working professionally for nearly a decade as a Freelance Creative, and now have transported my gifts to the tech world. With a deep love for Front-End UI/UX Development and Design, i've now traded in my paint brushes for React and Javascript. 
-    My journey doesn't end there, I intend to build strong apps from the back-end that are just as captivating on the Front.
-    <br> 
-    <br>
-    Seeing the possibility that I can create anything with the use of code, especially something powerful that can help humanity in their daily lives, it inspires me to want to reinvent myself as an artist within the tech world. 
-    As I get my feet wet with mastering Front-end development, I have strong interest in learning about game development and AI in the future as well. C++ and Java are HIGH on my list to learn more about.
-    <br> 
-    <br>
-    I look forward to working with a company where I could learn, grow, and evolve into the Developer I dream of becoming. As a freelancer, I understand the importance of work performance, time management, and just how business works. I'm determined to be a valuable asset to a team and my employer. </p>
-</div>
- <h1 id="projects">
-        Projects
-    </h1>
-<div id="project-container">
-   
-<div class="pro-card card-1">
-    <h3><a href="https://startling-klepon-40c483.netlify.app/">"Heart Of Code"</a></h3>
-    <a href="https://startling-klepon-40c483.netlify.app/"><img class="pro-img" src="images/heartofcodeSS.png" ></a>
-    <p></p>
-    <ul>
-        <li>16-bit RPG-themed multiple choice trivia game written with Javascript,
-            HTML, CSS</li>
-        <li> My first big project as a student at General Assembly</li>
-        <li>Used graphic design skills for character design.</li>
-    </ul>
-</div>
-<div class="pro-card card-2">
-    <h3><a href="https://github.com/lovedrones/mongoose-flight-lab">"Mongoose Flights"</a></h3>
-    <a href="https://github.com/lovedrones/mongoose-flight-lab"><img class="pro-img" src="images/mon_fli_ss.png" ></a>
-    <p></p>
-    <ul>
-        <li>Flight tracker app</li>
-        <li>NodeJs, Mongoose, Express, HTML, Javascript, CSS</li>
-        <li>CRUD functions for flight booking/itinerary</li>
-    </ul>
-</div>
+      </h1>
+      <h3 id="subcap">Front-End Software Engineer</h3>
+    </div>
+    <div id="aboutme-container" class="center">
+      <h1 id="about-me">About Me</h1>
+      <p>
+        I've been working professionally for nearly a decade as a Freelance
+        Creative, and now have transported my gifts to the tech world. With a
+        deep love for Front-End UI/UX Development and Design, i've now traded in
+        my paint brushes for React and Javascript. My journey doesn't end there,
+        I intend to build strong apps from the back-end that are just as
+        captivating on the Front.
+        <br />
+        <br />
+        Seeing the possibility that I can create anything with the use of code,
+        especially something powerful that can help humanity in their daily
+        lives, it inspires me to want to reinvent myself as an artist within the
+        tech world. As I get my feet wet with mastering Front-end development, I
+        have strong interest in learning about game development and AI in the
+        future as well. C++ and Java are HIGH on my list to learn more about.
+        <br />
+        <br />
+        I look forward to working with a company where I could learn, grow, and
+        evolve into the Developer I dream of becoming. As a freelancer, I
+        understand the importance of work performance, time management, and just
+        how business works. I'm determined to be a valuable asset to a team and
+        my employer.
+      </p>
+    </div>
+    <h1 id="projects">Projects</h1>
+    <div id="project-container">
+      <div class="pro-card card-1">
+        <h3>
+          <a href="https://startling-klepon-40c483.netlify.app/"
+            >"Heart Of Code"</a
+          >
+        </h3>
+        <a href="https://startling-klepon-40c483.netlify.app/"
+          ><img class="pro-img" src="images/heartofcodeSS.png"
+        /></a>
+        <p></p>
+        <ul>
+          <li>
+            16-bit RPG-themed multiple choice trivia game written with
+            Javascript, HTML, CSS
+          </li>
+          <li>My first big project as a student at General Assembly</li>
+          <li>Used graphic design skills for character design.</li>
+        </ul>
+      </div>
+      <div class="pro-card card-2">
+        <h3>
+          <a href="https://github.com/lovedrones/mongoose-flight-lab"
+            >"Mongoose Flights"</a
+          >
+        </h3>
+        <a href="https://github.com/lovedrones/mongoose-flight-lab"
+          ><img class="pro-img" src="images/mon_fli_ss.png"
+        /></a>
+        <p></p>
+        <ul>
+          <li>Flight tracker app</li>
+          <li>NodeJs, Mongoose, Express, HTML, Javascript, CSS</li>
+          <li>CRUD functions for flight booking/itinerary</li>
+        </ul>
+      </div>
 
-<div class="pro-card card-3">
-    <h3><a href="https://github.com/lovedrones/24fitapp">"24-Fit Me"</a></h3>
-    <a href="https://github.com/lovedrones/24fitapp"><img class="pro-img" src="images/24fit_ss.png" ></a>
-    <p></p>
-    <ul>
-        <li>A Lifestyle Fitness app for meal and workout planning</li>
-        <li> NodeJS, Express, HTML, Javascript, CSS, Materialize</li>
-        <li>Oauth and CRUD functionality W/ Calorie Calculator</li>
-    </ul>
-</div>
+      <div class="pro-card card-3">
+        <h3>
+          <a href="https://github.com/lovedrones/24fitapp">"24-Fit Me"</a>
+        </h3>
+        <a href="https://github.com/lovedrones/24fitapp"
+          ><img class="pro-img" src="images/24fit_ss.png"
+        /></a>
+        <p></p>
+        <ul>
+          <li>A Lifestyle Fitness app for meal and workout planning</li>
+          <li>NodeJS, Express, HTML, Javascript, CSS, Materialize</li>
+          <li>Oauth and CRUD functionality W/ Calorie Calculator</li>
+        </ul>
+      </div>
+    </div>
 
-</div>
+    <div id="resume-container" class="center">
+      <h1 id="resume" class="center">Resume</h1>
+      <a
+        href="https://docs.google.com/document/d/19lM7N_vikA2QEwa-MnMJ-cyR2i7Za2EFiQOA1AuVdrA/edit?usp=sharing"
+        ><img class="res-img" src="images/resumethumb.png"
+      /></a>
 
-<div id="resume-container" class="center">
-    <h1 id="resume" class="center">
-        Resume
-    </h1>
-    <a href="https://docs.google.com/document/d/19lM7N_vikA2QEwa-MnMJ-cyR2i7Za2EFiQOA1AuVdrA/edit?usp=sharing"><img class="res-img" src="images/resumethumb.png" ></a>
+      <a
+        href="https://docs.google.com/document/d/19lM7N_vikA2QEwa-MnMJ-cyR2i7Za2EFiQOA1AuVdrA/edit?usp=sharing"
+        ><button class="center">Check Out My Latest Resume</button></a
+      >
+    </div>
 
-<a href="https://docs.google.com/document/d/19lM7N_vikA2QEwa-MnMJ-cyR2i7Za2EFiQOA1AuVdrA/edit?usp=sharing"><button class="center">Check Out My Latest Resume</button></a>
-</div>
-
-<div id="contact-container" class="center">
-    <h1 id="contact" class="center">
-        Contact me
-    </h1>
-    <img id="con-img" src="images/JUAN09cropd.jpg" class="center">
-   <div class ="con-links"><a href="https://www.linkedin.com/in/dajuanowens/">Linkd In<i class="fa-brands fa-linkedin"></i></a> </div>
-   <div class ="con-links"><a href="mailto:juanowens.86@gmail.com">Email <i class="fa-regular fa-envelope"></i></a></div>
-   <div class ="con-links"><a href="https://github.com/lovedrones">GitHub<i class="fa-brands fa-github"></i></a></div>
-</div>
-</body>
+    <div id="contact-container" class="center">
+      <h1 id="contact" class="center">Contact me</h1>
+      <img id="con-img" src="images/JUAN09cropd.jpg" class="center" />
+      <div class="con-links">
+        <a href="https://www.linkedin.com/in/dajuanowens/"
+          >Linkd In<i class="fa-brands fa-linkedin"></i
+        ></a>
+      </div>
+      <div class="con-links">
+        <a href="mailto:juanowens.86@gmail.com"
+          >Email <i class="fa-regular fa-envelope"></i
+        ></a>
+      </div>
+      <div class="con-links">
+        <a href="https://github.com/lovedrones"
+          >GitHub<i class="fa-brands fa-github"></i
+        ></a>
+      </div>
+    </div>
+  </body>
 </html>
